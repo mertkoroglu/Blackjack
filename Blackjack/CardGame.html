@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./CardGame.css" />
+  <body>
+    <div id="navbar">Card Game</div>
+    <div id="top">
+      <div id="youP">
+        <div><h1 id="Ypoints">Your Points: 0</h1></div>
+        <div id="you"></div>
+      </div>
+
+      <div id="botP">
+        <div><h1 id="Apoints">AI Points: 0</h1></div>
+        <div id="bot"></div>
+      </div>
+    </div>
+
+    <div id="bottom">
+      <div id="btns">
+        <input type="button" value="Hit" id="btn1" onclick="hit()" />
+        <input type="button" value="Stand" id="btn2" onclick="stand()" />
+      </div>
+      <div id="result"></div>
+    </div>
+
+    <div id="desc">
+      <p>
+        <b>HOW TO PLAY</b>
+        <br />
+        <br />
+
+        by pressing "Hit" button, get a card. Every card has a number and you
+        should pick your cards carefully because, you will lose if you exceed 20
+        points total.
+        <br />
+        after you feel like you cant get a better total that does not exceed 20.
+        Press Stand to let AI take its turn.
+      </p>
+    </div>
+    <script src="./CardGame.js"></script>
+  </body>
+</html>

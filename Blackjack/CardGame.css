@@ -1,0 +1,131 @@
+#navbar {
+  height: 50px;
+  background-color: rgb(202, 202, 202);
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  margin: 5px auto;
+  font-size: 32px;
+  padding-top: 50px;
+}
+* {
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+input {
+  width: 100px;
+  margin: 5px;
+  padding: 1em;
+  border-radius: 16px;
+  border: none;
+  font-size: larger;
+  font-weight: bolder;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+#btn1 {
+  background-color: rgb(58, 127, 255);
+}
+#btn2 {
+  background-color: rgb(252, 252, 89);
+}
+
+#top {
+  height: 500px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#youP {
+  margin: 5px;
+  background-color: grey;
+  width: 50%;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 24px;
+}
+#you {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bot {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#botP {
+  margin: 5px;
+  background-color: grey;
+  width: 50%;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 24px;
+}
+#bottom {
+  margin: 5px;
+  height: 120px;
+}
+#btns {
+  width: fit-content;
+  margin: 0 auto;
+}
+#result {
+  text-align: center;
+  margin: 20px;
+  font-size: 32px;
+}
+
+#desc {
+  text-align: center;
+  font-size: large;
+  width: 400px;
+  margin: 40px auto;
+}
+b {
+  text-decoration: underline;
+  font-size: larger;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+  #youP {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  #you {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  #bot {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  #botP {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+}
